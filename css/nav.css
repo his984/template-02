@@ -1,0 +1,29 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.356);
+  height: 70px;
+}
+
+.main-nav-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+  gap: 15px;
+}
+
+.main-nav-link:link,
+.main-nav-link:visited {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+}
+.search-icon {
+  padding: 0 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-left: 1px solid;
+}
