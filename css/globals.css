@@ -1,14 +1,47 @@
+:root {
+  --main-color: #19c8fa;
+  --transparent-color: rgb(15 116 143 / 70%);
+  --section-padding: 100px;
+}
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-
+html {
+  font-family: "Open Sans", sans-serif;
+  scroll-behavior: smooth;
+  background-color: rgb(50, 56, 235);
+}
 .container {
-  max-width: 1200px;
   margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
-  background-color: rgb(178, 206, 248);
-  height: 100vh;
+}
+/* Small */
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+/* Medium */
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+/* Large */
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
+/* ul */
+ul {
+  list-style: none;
+}
+/* a */
+a {
+  text-decoration: none;
 }
