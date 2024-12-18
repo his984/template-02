@@ -1,0 +1,48 @@
+.main-heading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.head {
+  /* background-color: red; */
+  margin-top: 36px;
+  padding: 20px;
+  border-bottom: 1px solid black;
+  position: relative;
+  margin-bottom: 36px;
+}
+.head h1 {
+  text-transform: uppercase;
+  font-weight: normal;
+}
+.head span {
+  position: absolute;
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  background-color: white;
+  border: 1px solid black;
+  bottom: -5px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.services-box {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  margin: 30px;
+  gap: 30px;
+}
+
+.service {
+  display: flex;
+  align-items: start;
+  /* background-color: red; */
+  padding: 30px;
+  gap: 40px;
+}
+.service-icon {
+  font-size: 50px;
+}
