@@ -32,3 +32,45 @@
   font-size: 14px;
   line-height: 2;
 }
+
+.right {
+  position: absolute;
+  top: 50%;
+  right: 15px;
+  transform: translateY(50%);
+  color: white;
+  border: 1px solid;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.left {
+  position: absolute;
+  top: 50%;
+  left: 15px;
+  transform: translateY(50%);
+  color: white;
+  border: 1px solid;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.bullets {
+  position: absolute;
+  bottom: 15px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 8px;
+}
+
+.bullets li {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  border: 1px solid white;
+}
+.bullets .active {
+  background-color: var(--transparent-color);
+  border: none;
+}
